@@ -46,7 +46,7 @@ Chọn một lỗi **có thật** trong bài. Nếu công cụ lỗi khiến b�
 - Quy tắc và hành động sửa: Áp dụng quy tắc chỉ gán nhãn cho các cá thể nhìn thấy rõ ràng và có thể phân định độc lập; hành khách ngồi trong xe buýt không tách thành instance riêng. Tôi đã mở lại job trên CVAT, xóa bớt các mask person li ti này, đưa tổng số vật của toàn bộ task về đúng 71 vật (khớp hoàn toàn với ground truth).
 - Sau sửa đã Save và export lại chưa? Đã Save và export lại thành file `medium_instance.zip` mới trong thư mục `submissions/`.
 
-Nếu bạn **đã xem Summary tự đánh giá trên GitHub Actions hoặc tự chạy script**, ghi ngắn một kết quả liên quan lỗi vừa sửa (ví dụ task, metric trước/sau nếu có): Sau khi sửa và chạy lại scorer, số lượng object khớp tuyệt đối (submitted 71 vs GT 71, count error = 0), Precision tăng từ 0.59 lên 0.70, số lượng FP giảm từ 35 xuống 21, chất lượng viền mean matched IoU đạt mức cao 0.770. Scorecard ba tier đạt 40.5 / 82.
+Nếu bạn **đã xem Summary tự đánh giá trên GitHub Actions hoặc tự chạy script**, ghi ngắn một kết quả liên quan lỗi vừa sửa (ví dụ task, metric trước/sau nếu có): Sau khi sửa và chạy lại scorer, số lượng object khớp tuyệt đối (submitted 71 vs GT 71, count error = 0), Precision tăng từ 0.59 lên 0.70, số lượng FP giảm từ 35 xuống 21, chất lượng viền mean matched IoU đạt mức cao 0.770. Scorecard ba tier đạt 72.9 / 82 (easy 17.9, medium 25.0, hard 30.0).
 
 ## 4. Ba ca chưa chắc hoặc đã cân nhắc
 
